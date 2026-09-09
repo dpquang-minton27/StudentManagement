@@ -558,56 +558,49 @@ fun displayMenu() {
 
 fun main() {
 
-    // ==================================================
-    // 5 SINH VIÊN MẪU
-    //
-    // QUAN TRỌNG:
-    // Trước khi nộp bài, hãy thay 5 sinh viên này
-    // bằng 5 sinh viên mẫu RIÊNG của bạn.
-    // ==================================================
-
     val students = mutableListOf(
 
         Student(
-            id = "SV001",
-            fullName = "Nguyen Minh Khoa",
+            id = "ST101",
+            fullName = "Hoang Minh Duc",
             age = 20,
-            major = "Information Technology",
-            gpa = 8.6
+            major = "Cyber Security",
+            gpa = 8.1
         ),
 
         Student(
-            id = "SV002",
-            fullName = "Tran Gia Han",
-            age = 22,
-            major = "Software Engineering",
-            gpa = 7.4
-        ),
-
-        Student(
-            id = "SV003",
-            fullName = "Le Quang Huy",
-            age = 19,
-            major = "Information Technology",
-            gpa = 4.8
-        ),
-
-        Student(
-            id = "SV004",
-            fullName = "Pham Ngoc Anh",
-            age = 23,
-            major = "Data Science",
-            gpa = 9.1
-        ),
-
-        Student(
-            id = "SV005",
-            fullName = "Vo Minh Quan",
+            id = "ST102",
+            fullName = "Nguyen Gia Linh",
             age = 21,
+            major = "Data Science",
+            gpa = 7.3
+        ),
+
+        Student(
+            id = "ST103",
+            fullName = "Tran Quoc Bao",
+            age = 19,
             major = "Software Engineering",
-            gpa = 6.9
+            gpa = 4.9
+        ),
+
+        Student(
+            id = "ST104",
+            fullName = "Le Thanh Ha",
+            age = 22,
+            major = "Artificial Intelligence",
+            gpa = 9.2
+        ),
+
+        Student(
+            id = "ST105",
+            fullName = "Pham Minh Anh",
+            age = 23,
+            major = "Information Technology",
+            gpa = 6.7
         )
     )
+
 
 
     // ==================================================
